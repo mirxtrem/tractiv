@@ -10,6 +10,8 @@ class MyApp extends StatelessWidget {
 
     return MaterialApp(
       debugShowCheckedModeBanner: false,
+      theme: ThemeData(
+      ),
       title: 'Material App',
       initialRoute: '/',
       routes: <String, WidgetBuilder> {
